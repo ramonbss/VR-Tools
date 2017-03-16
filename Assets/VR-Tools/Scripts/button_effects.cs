@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class button_effects : MonoBehaviour {
 
-	public bool anim_backgroun = false,	// Enable button's background animation
+	public bool anim_backgroun = true,	// Enable button's background animation
 				anim_text = false;		// Enable button's text animation
 
 	public Color Enter_Color = new Color(0.74f,0.74f,0.74f);	// When gaze enter button
