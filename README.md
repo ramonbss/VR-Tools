@@ -20,5 +20,5 @@ This package is very simple to use. All I did was prepare some scripts and prefa
 3. Samples
 
 **Scripts** are a set of common functions like apply a button animation when its have focus or not.
-**Prefabs** Some common prefabs like a Canvas ready to be dragged in GvrMain's Main Camera
+**Prefabs** Some common prefabs like a Canvas ready to be dragged in GvrMain's Main Camera.
 **Samples** are prefabs that needed more items to work correctly, like a waypoint movement that need Event System, Waypoint prefab, Scripts and so on. Think on it like Scene encapsulated in a prefab.
