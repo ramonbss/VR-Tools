@@ -31,6 +31,11 @@ public class button_effects : MonoBehaviour {
 
 	}
 
+	public void onClick()
+	{
+		Debug.Log ("Click");
+	}
+
 	public void onEnter()
 	{
 		//Debug.Log ("onEnter - " + gameObject.transform.name);
