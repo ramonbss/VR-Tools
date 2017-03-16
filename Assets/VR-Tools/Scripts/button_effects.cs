@@ -7,11 +7,11 @@ public class button_effects : MonoBehaviour {
 	public bool anim_backgroun = false,	// Enable button's background animation
 				anim_text = false;		// Enable button's text animation
 
-	public Color Enter_Color;			// When gaze enter button
-	public Color Exit_Color;			// When gaze exit button
+	public Color Enter_Color = new Color(0.74f,0.74f,0.74f);	// When gaze enter button
+	public Color Exit_Color = new Color(1f,1f,1f);				// When gaze exit button
 
-	public Color Text_Enter;			// When gaze enter button
-	public Color Text_Exit;				// When gaze exit button
+	public Color Text_Enter = new Color(0f,0f,1f);				// When gaze enter button
+	public Color Text_Exit = new Color(0f,0f,0f);				// When gaze exit button
 
 	// Use this for initialization
 	void Start () {
@@ -21,11 +21,6 @@ public class button_effects : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-	}
-
-	public void onClick()
-	{
-		Debug.Log ("Click");
 	}
 
 	public void onEnter()
