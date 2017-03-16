@@ -1,0 +1,3 @@
+If you are using the legacy GVRMain rather than the new GvrViewerMain (I'm doing this because I have stereoscopic images I need to cull for Left/Right Eyes) in GVR1.1 then you need to add the GVRpointerManager to the GvrMain
+
+ALSO, you need to add the GvrPointerPhysicsRaycaster to the mainCamera, not the unity Raycaster for it to work. 

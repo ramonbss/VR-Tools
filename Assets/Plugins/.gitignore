@@ -1,0 +1,6 @@
+IOS/
+Android/
+x86/
+x86_64/
+*.meta
+*.dll
