@@ -13,6 +13,14 @@ public class button_effects : MonoBehaviour {
 	public Color Text_Enter = new Color(0f,0f,1f);				// When gaze enter button
 	public Color Text_Exit = new Color(0f,0f,0f);				// When gaze exit button
 
+	void Awake()
+	{
+		// Set button default color
+		GetComponent<Image>().color = Exit_Color;
+		// Since Text isnt a direct button's element, make sure to update its text color too
+		GetComponentInChildren<Text> ().color = Text_Exit;
+	}
+
 	// Use this for initialization
 	void Start () {
 
