@@ -5,3 +5,5 @@
 **Canvas_Menu:**: A VR menu template. You only need to put it your Main Camera.
 
 **GvrMain_with_gaze:** A GvrMain template already with gaze input configured. All you have to do is put "Gvr Pointer Input Module" in your Event System.
+
+**WayPoint:** A sphere to be used asway point. Please check waypointLogic.cs comments and Waypoint sample for more info.
