@@ -144,7 +144,7 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
      <Compile Include="Assets\VR-Tools\Samples\click_test.cs" />
-     <Compile Include="Assets\VR-Tools\Scripts\SimplePlayer.cs" />
+     <Compile Include="Assets\VR-Tools\Scripts\TexturePlayer.cs" />
      <Compile Include="Assets\VR-Tools\Scripts\button_effects.cs" />
      <Compile Include="Assets\VR-Tools\Scripts\waypointLogic.cs" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />

@@ -1,7 +1,7 @@
 using UnityEngine; // 41 Post - Created by DimasTheDriver on Apr/20/2012 . Part of the 'Unity: Animated texture from image sequence' post series. Available at: http://www.41post.com/?p=4742 
 using System.Collections; //Script featured at Part 2 of the post series.
 
-public class ImageSequenceSingleTexture : MonoBehaviour 
+public class TexturePlayer : MonoBehaviour 
 {
 	//A texture object that will output the animation
 	private Texture texture;
@@ -9,6 +9,8 @@ public class ImageSequenceSingleTexture : MonoBehaviour
 	private Material goMaterial;
 	//An integer to advance frames
 	private int frameCounter = 0;
+
+	public float min_distance = 0f;
 
 	public float fps = 24f;
 	
@@ -50,16 +52,20 @@ public class ImageSequenceSingleTexture : MonoBehaviour
 
 		//Debug.Log ("distance: " + distance);
 
-		if( distance < 7 )
+		if( distance < 7 || true )
 		{
+			/*
 			isPaused = false;
 			if( !Scanning_Audio.GetComponent<GvrAudioSource> ().isPlaying )
 				Scanning_Audio.GetComponent<GvrAudioSource> ().Play ();
+			*/
 		}
 		else{
+			/*
 			isPaused = true;
 			if( Scanning_Audio.GetComponent<GvrAudioSource> ().isPlaying )
 				Scanning_Audio.GetComponent<GvrAudioSource> ().Pause();
+			*/
 		}
 
 		if (isPaused == false) {
