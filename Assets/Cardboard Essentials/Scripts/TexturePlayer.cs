@@ -63,12 +63,12 @@ public class TexturePlayer : MonoBehaviour
 			//Set the material's texture to the current value of the curr_frame variable
 			Monitor_Material.mainTexture = this.frame_texture;
 
-			if (!Video_Audio.isPlaying)
+			if ( Video_Audio != null && !Video_Audio.isPlaying)
 				Video_Audio.Play ();
 
 		}
 		else{
-			if (Video_Audio.isPlaying)
+			if ( Video_Audio != null && Video_Audio.isPlaying)
 				Video_Audio.Pause ();
 		}
 			 
