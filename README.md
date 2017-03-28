@@ -9,7 +9,7 @@ Toolbox with some essential tools for VR developers, using Unity.
 ## Requirements
 
 - [Google SDK 1.30](https://drive.google.com/open?id=0B-TjGR3ZZurIZ25ZR0dCLVFUcEU) 
-- [iTween library](https://www.assetstore.unity3d.com/en/#!/content/84) ( Already inside Plugins folder )
+- [iTween library](https://www.assetstore.unity3d.com/en/#!/content/84)
 - [Unity 5.5.2.f1](http://netstorage.unity3d.com/unity/3829d7f588f3/Windows64EditorInstaller/UnitySetup64-5.5.2f1.exe?_ga=1.7772018.1352120246.1487345599) ( Optional, in case you find any incompatibilites in other version )
 
 ## How-To
