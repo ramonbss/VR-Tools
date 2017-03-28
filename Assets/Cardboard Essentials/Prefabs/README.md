@@ -6,4 +6,6 @@
 
 **GvrMain_with_gaze:** A GvrMain template already with gaze input configured. All you have to do is put "Gvr Pointer Input Module" in your Event System.
 
+**Movie_Screen:** A screen prefab to be used with TexturePlayer script.
+
 **WayPoint:** A sphere to be used asway point. Please check waypointLogic.cs comments and Waypoint sample for more info.

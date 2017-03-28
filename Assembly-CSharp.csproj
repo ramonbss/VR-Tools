@@ -46,6 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Cardboard Essentials\Samples\click_test.cs" />
+     <Compile Include="Assets\Cardboard Essentials\Scripts\TexturePlayer.cs" />
+     <Compile Include="Assets\Cardboard Essentials\Scripts\button_effects.cs" />
+     <Compile Include="Assets\Cardboard Essentials\Scripts\waypointLogic.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoSceneManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\Teleport.cs" />
@@ -143,10 +147,6 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
-     <Compile Include="Assets\VR-Tools\Samples\click_test.cs" />
-     <Compile Include="Assets\VR-Tools\Scripts\TexturePlayer.cs" />
-     <Compile Include="Assets\VR-Tools\Scripts\button_effects.cs" />
-     <Compile Include="Assets\VR-Tools\Scripts\waypointLogic.cs" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoInsideShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
