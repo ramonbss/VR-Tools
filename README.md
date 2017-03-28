@@ -13,7 +13,7 @@ Toolbox with some essential tools for VR developers, using Unity.
 - [Unity 5.5.2.f1](http://netstorage.unity3d.com/unity/3829d7f588f3/Windows64EditorInstaller/UnitySetup64-5.5.2f1.exe?_ga=1.7772018.1352120246.1487345599) ( Optional, in case you find any incompatibilites in other version )
 
 ## How-To
-First you will need to import Google SDK into your project then just download the "Vr-Tools.unitypackage" package inside Build folder and import into your project.
+First you will need to import Google SDK into your project then just download the "Vr-Tools.unitypackage" package inside our root path and import into your project.
 
 This package is very simple to use. All I did was prepare some scripts and prefabs and make them ready to use. You can separate this package in 3 essential parts:
 
