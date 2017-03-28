@@ -49,6 +49,7 @@
      <Compile Include="Assets\Cardboard Essentials\Samples\click_test.cs" />
      <Compile Include="Assets\Cardboard Essentials\Scripts\TexturePlayer.cs" />
      <Compile Include="Assets\Cardboard Essentials\Scripts\button_effects.cs" />
+     <Compile Include="Assets\Cardboard Essentials\Scripts\turn_around.cs" />
      <Compile Include="Assets\Cardboard Essentials\Scripts\waypointLogic.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoSceneManager.cs" />
