@@ -27,7 +27,7 @@ public class turn_around : MonoBehaviour {
 		// 2- Get difference between 2 angles
 		float angle = angle_parent_camera - angle_parent_panel;
 
-		Debug.Log ("Signed Angle: " + angle); - Camera.rotation.y ));
+		//Debug.Log ("Signed Angle: " + angle);
 		// 3- Update Panel rotation to it appear always in front of MainCamera
 		gameObject.transform.RotateAround( Player.position, Vector3.up, angle);
 
