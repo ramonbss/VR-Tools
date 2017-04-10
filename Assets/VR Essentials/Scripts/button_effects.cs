@@ -21,16 +21,6 @@ public class button_effects : MonoBehaviour {
 		GetComponentInChildren<Text> ().color = Text_Exit;
 	}
 
-	// Use this for initialization
-	void Start () {
-
-	}
-
-	// Update is called once per frame
-	void Update () {
-
-	}
-
 	public void onClick()
 	{
 		Debug.Log ("Click");
